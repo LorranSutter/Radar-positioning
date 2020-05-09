@@ -53,25 +53,25 @@ The script **Instance_generator.py** generates a random instance to be solved an
 - Int → Number of points in y direction
 
 ```sh
-python Instance_generator.py <list of inputs>
+python3 Instance_generator.py <list of inputs>
 ```
 
 The script **Radar_max.py** is the main variation of the problem, with a fixed number of radars. There is only one input, which are the files in *Instances* folder.
 
 ```sh
-python Radar_max.py Instances/<file>
+python3 Radar_max.py Instances/<file>
 ```
 
 The script **Radar_min.py** is the second variation of the problem, with no limit of radars. The input is the same as the above.
 
 ```sh
-python Radar_min.py Instances/<file>
+python3 Radar_min.py Instances/<file>
 ```
 
 Finally, the script **Display_terrain.py** uses OpenGL to show the results of the previous scripts. Inputs needs two files, one from *InstancesPoints* folder and other from *Solutions* folder. Both must have the same suffixes, for example, instance_Points49_10_5 and instance49_10_5_out.sol
 
 ```sh
-python Display_terrain.py InstancesPoints/<file> Solutions/<file>
+python3 Display_terrain.py InstancesPoints/<file> Solutions/<file>
 ```
 
 ## :pencil2: What is linear programming?
