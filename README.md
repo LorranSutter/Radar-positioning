@@ -19,10 +19,11 @@
 
 We have a 2D region with signal demands to be met by a set of radars. We want to maximize the number of demands met and with better signal quality.
 
-As seen in the image below, we have a solution for a region with 2500 points that radars can be positioned (black dots), 1000 demands to be met and a limit of 200 radars (blue circles). The red dots represents demands that could not be met and the green dots demands that were met.
+As seen in the images below, we have two solutions for a region with 100 (left) and 2500 (right) points that radars can be positioned (black dots), 20 (left) and 1000 (right) demands to be met and a limit of 10 (left) and 200 (right) radars (blue circles). The red dots represents demands that could not be met and the green dots demands that were met.
 
 <p align="center">
-    <img src='https://res.cloudinary.com/lorransutter/image/upload/v1589061094/radarSolution.png'/>
+    <img src='https://res.cloudinary.com/lorransutter/image/upload/v1589066290/radarSolution01.png'>
+    <img src='https://res.cloudinary.com/lorransutter/image/upload/v1589061094/radarSolution02.png'/>
 </p>
 
 There are two possible variations for this problem:
