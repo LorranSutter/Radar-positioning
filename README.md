@@ -8,8 +8,8 @@
 
 <p align="center">
     <a href="#satellite-problem-presentation">Problem presentation</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#runner-how-to-run">How to run</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#pencil-dependencies">Dependencies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#runner-how-to-run">How to run</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#pencil2-what-is-linear-programming">Linear programming</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#triangular_ruler-radar-positioning-model">Linear model</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#book-resources-and-technologies-computer">Resources</a>&nbsp;&nbsp;
@@ -113,11 +113,7 @@ Each row of the model above is explained as follows:
 2. Number of demands met must be equals to number of demands.
 3. Number of radars in position j must be equals to the max number of radars available.
 4. Number of radars in position j must be grater or equals to the demands met by this radar in the position j.
-5. All radar, demand and demand met must be 0 or 1.
-
-<!-- We want to generalize the problem to solve a sudoku of any square dimension (9x9, 16x16, 25x25 ...). For that purpose, **n** represents the dimension of the puzzle, **x** are decision variables, **i** represents the columns, **j** represents the rows, **k** represents all possible digitis depending on the puzzle dimension, and **p** and **q** represents an auxiliar variable to iterate in all subgrids.
-
-The first and the second constraints ensures that all columns and all rows will be filled must have only one of the available digits. The third constraint ensures that each cell in the grid will have only one digit. The last constraint ensures that all subgrid will have only one of the available digits. -->
+5. All radars, demand and demand met must be 0 or 1.
 
 ## :book: Resources and technologies :computer:
 
