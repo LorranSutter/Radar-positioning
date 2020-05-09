@@ -84,14 +84,14 @@ Linear programs aims to maximize a **objective function** made of **decision var
 
 For this problem, we want to maximize the number of demands met and with better signal quality. The meaning of the variables and parameters is as follows:
 
-- xj → Radar j in the position j
-- yi → Demand i
-- zij → It says whether the demand i has been me by the radar j
-- Aij → It says the signal quality of the radar j fot the demand i
+- **xj** → Radar j in the position j
+- **yi** → Demand i
+- **zij** → It says whether the demand i has been me by the radar j
+- **Aij** → It says the signal quality of the radar j fot the demand i
 
-- m → Number of demands
-- n → Number of locations where the radars may be positioned
-- p → Max number of radars
+- **m** → Number of demands
+- **n** → Number of locations where the radars may be positioned
+- **p** → Max number of radars
 
 <div align="center">
 
