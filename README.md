@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Project created to solve a radar positioning problem using linear programming concepts, part of Operations Research course of <a src='http://www.ufjf.br/ufjf/'>Universidade Federal de Juiz de Fora</a>
+  Project created to solve a radar positioning problem using linear programming concepts, part of Operations Research course of <a href='http://www.ufjf.br/ufjf/'>Universidade Federal de Juiz de Fora</a>
 </p>
 
 <p align="center">
