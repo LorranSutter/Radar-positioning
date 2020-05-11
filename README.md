@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  You can also check a linear solution to solve Sudoku <a href='https://github.com/LorranSutter/Sudoku'>here</a>.
+</p>
+
+<p align="center">
     <a href="#satellite-problem-presentation">Problem presentation</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#pencil-dependencies">Dependencies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#runner-how-to-run">How to run</a>&nbsp;&nbsp;|&nbsp;&nbsp;
