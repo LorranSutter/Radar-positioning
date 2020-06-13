@@ -122,6 +122,6 @@ Each row of the model above is explained as follows:
 
 ## :book: Resources and technologies :computer:
 
-- [Gurobi](https://www.gurobi.com/documentation/9.0/quickstart_mac/py_python_interface.html)
-- [Python](https://www.python.org/)
-- [PyOpenGL](http://pyopengl.sourceforge.net/)
+- [Gurobi](https://www.gurobi.com/documentation/9.0/quickstart_mac/py_python_interface.html) - mathematical optimization solver
+- [Python](https://www.python.org/) - interpreted, high-level, general-purpose programming language
+- [PyOpenGL](http://pyopengl.sourceforge.net/) - rendering library to run OpenGL API using Python
