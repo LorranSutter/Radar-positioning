@@ -89,26 +89,26 @@ Linear programs aims to maximize a **objective function** made of **decision var
 
 For this problem, we want to maximize the number of demands met and with better signal quality. The meaning of the variables and parameters is as follows:
 
-- **xj** → Radar j in the position j
-- **yi** → Demand i
-- **zij** → It says whether the demand i has been me by the radar j
-- **Aij** → It says the signal quality of the radar j fot the demand i
+- $xj$ → Radar j in the position j
+- $yi$ → Demand i
+- $zij$ → It says whether the demand i has been me by the radar j
+- $Aij$ → It says the signal quality of the radar j fot the demand i
 
-- **m** → Number of demands
-- **n** → Number of locations where the radars may be positioned
-- **p** → Max number of radars
+- $m$ → Number of demands
+- $n$ → Number of locations where the radars may be positioned
+- $p$ → Max number of radars
 
 <div align="center">
 
-![formula](https://render.githubusercontent.com/render/math?math=$\qquad\qquad\\>\\:\text{Max}\quad\sum_{i=1}^{m}y_i%2B\sum_{i=1}^{m}\sum_{j=1}^{n}A_{ij}z_{ij})
+$$\qquad\qquad\\> \ \text{Max} \quad \sum_{i=1}^{m}y_i \ + \\sum_{i=1}^{m}\sum_{j=1}^{n}A_{ij}z_{ij}$$
 
-![formula](https://render.githubusercontent.com/render/math?math=$\text{Subject%20to}\quad\sum_{j=1}^{n}z_{ij}=y_{i}\quad\forall%20i)
+$$\text{Subject to} \ \sum_{j=1}^{n}z_{ij} \ = \ y_{i} \ \forall i$$
 
-![formula](https://render.githubusercontent.com/render/math?math=$\qquad\\>\\>\\>\sum_{j=1}^{m}x_{j}=p)
+$$\qquad\\>\\>\\>\sum_{j=1}^{m}x_{j} \ = \ p$$
 
-![formula](https://render.githubusercontent.com/render/math?math=$\qquad\qquad\qquad\qquad\qquad\\>\\>x_j\ge%20z_{ij}\quad\forall{i}\forall{j}\\>\text{and}\\>A_{ij}\neq0)
+$$\qquad\qquad\qquad\qquad\quad \ x_j\ge z_{ij} \quad \forall{i} \forall{j} \ \text{and} \ A_{ij} \ \neq \ 0$$
 
-![formula](https://render.githubusercontent.com/render/math?math=$\qquad\qquad\quad\\>x_j,y_i,z_{ij}\in[0,1])
+$$\qquad\qquad\quad\\>x_j,y_i,z_{ij} \ \in \ [0,1]$$
 
 </div>
 
